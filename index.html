@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Jak szybko piszesz?</h1>
+    </header>
+
+    <div class="typing">
+      <div>
+        <p>Wpisz dane słowo w ciągu<span class="seconds"> 5</span> sekund:</p>
+        <h2 class="current-word">lecimy</h2>
+        <input type="text" placeholder=" Zacznij pisać..." autofocus />
+        <h3 class="info"></h3>
+      </div>
+    </div>
+    <div class="result">
+      <h2>
+        Pozostały czas:
+        <span class="time">0</span>
+      </h2>
+      <h3>
+        Wynik:
+        <span class="score">0</span>
+      </h3>
+    </div>
+    <div class="instructions">
+      <h3>Instrukcja</h3>
+      <p>
+        Wpisz każde słowo w podanej liczbie sekund do zdobycia. Aby zagrać
+        ponownie, po prostu wpisz bieżące słowo. Twój wynik zresetuje się.
+      </p>
+      <p>Miłej zabawy :)</p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
