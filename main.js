@@ -42,6 +42,11 @@ const words = [
   "czapka",
   "luneta",
   "maskowanie",
+  "powierzchnia",
+  "zakamarek",
+  "google",
+  "procesor",
+  "asynchroniczny"
 ];
 
 function nextWord(words) {
@@ -78,10 +83,10 @@ function matchWord() {
 function typing() {
   if (matchWord()) {
     playing = true;
-    if (score < 2) {
+    if (score < 10) {
       time = 6;
     } else {
-      time = 5;
+      time = 4;
     }
     nextWord(words);
     input.value = "";
